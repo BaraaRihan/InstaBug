@@ -1,0 +1,113 @@
+# Test Scenarios for Any.do Mobile App
+
+## Platform: Android
+
+### Test Scenarios
+
+1. **User Registration**
+   - **Scenario**: Verify the user can register with valid details.
+   - **Details**: 
+     - Open the app.
+     - Navigate to the registration page.
+     - Enter valid details (name, email, password).
+     - Submit the form.
+     - Confirm registration success message is displayed.
+
+2. **User Login**
+   - **Scenario**: Verify the user can log in with valid credentials.
+   - **Details**: 
+     - Open the app.
+     - Navigate to the login page.
+     - Enter valid email and password.
+     - Submit the form.
+     - Confirm the user is redirected to the home screen.
+
+3. **Add Task**
+   - **Scenario**: Verify the user can add a new task.
+   - **Details**: 
+     - Open the app.
+     - Log in if necessary.
+     - Tap the "Add Task" button.
+     - Enter task details.
+     - Save the task.
+     - Confirm the task appears in the task list.
+
+4. **Edit Task**
+   - **Scenario**: Verify the user can edit an existing task.
+   - **Details**: 
+     - Open the app.
+     - Log in if necessary.
+     - Select an existing task.
+     - Tap the "Edit" button.
+     - Modify task details.
+     - Save changes.
+     - Confirm the task details are updated.
+
+5. **Delete Task**
+   - **Scenario**: Verify the user can delete a task.
+   - **Details**: 
+     - Open the app.
+     - Log in if necessary.
+     - Select an existing task.
+     - Tap the "Delete" button.
+     - Confirm deletion.
+     - Confirm the task is removed from the task list.
+
+6. **Task Reminder Notification**
+   - **Scenario**: Verify the user receives a reminder notification for a task.
+   - **Details**: 
+     - Open the app.
+     - Log in if necessary.
+     - Add a task with a reminder.
+     - Wait for the reminder time.
+     - Confirm a notification is received.
+
+7. **Sync Across Devices**
+   - **Scenario**: Verify tasks sync across multiple devices.
+   - **Details**: 
+     - Open the app on Device A.
+     - Log in and add a task.
+     - Open the app on Device B.
+     - Log in with the same account.
+     - Confirm the task appears on Device B.
+
+8. **Offline Mode**
+   - **Scenario**: Verify the app's functionality in offline mode.
+   - **Details**: 
+     - Open the app and log in.
+     - Disable internet connection.
+     - Add a new task.
+     - Confirm the task is added.
+     - Re-enable internet connection.
+     - Confirm the task syncs with the server.
+
+9. **Negative Scenario: Invalid Login**
+   - **Scenario**: Verify the app handles invalid login attempts gracefully.
+   - **Details**: 
+     - Open the app.
+     - Navigate to the login page.
+     - Enter invalid email/password.
+     - Submit the form.
+     - Confirm an error message is displayed.
+
+10. **Negative Scenario: Field Validation**
+    - **Scenario**: Verify the app validates input fields during registration.
+    - **Details**: 
+      - Open the app.
+      - Navigate to the registration page.
+      - Enter invalid data (e.g., incorrect email format).
+      - Submit the form.
+      - Confirm validation messages are displayed for incorrect fields.
+
+### Test Case Prioritization
+
+1. User Registration - High
+2. User Login - High
+3. Add Task - High
+4. Edit Task - Medium
+5. Delete Task - Medium
+6. Task Reminder Notification - High
+7. Sync Across Devices - High
+8. Offline Mode - Medium
+9. Negative Scenario: Invalid Login - High
+10. Negative Scenario: Field Validation - Medium
