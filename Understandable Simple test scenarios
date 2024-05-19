@@ -1,0 +1,299 @@
+# Test Scenarios for ToDo Mobile App
+
+## General Functionality
+
+### 1. Login Functionality
+**Objective:** Ensure the user can log in with valid credentials.
+**Steps:**
+1. Open the app.
+2. Enter valid username and password.
+3. Click the login button.
+**Expected Result:** User is logged in successfully.
+
+### 2. Logout Functionality
+**Objective:** Ensure the user can log out.
+**Steps:**
+1. Log in to the app.
+2. Navigate to the profile settings.
+3. Click the logout button.
+**Expected Result:** User is logged out successfully.
+
+### 3. Sign Up Functionality
+**Objective:** Verify new user registration.
+**Steps:**
+1. Open the app.
+2. Navigate to the sign-up screen.
+3. Enter required details and submit.
+**Expected Result:** New user account is created and logged in.
+
+## Task Management
+
+### 4. Create New Task
+**Objective:** Verify that a user can create a new task.
+**Steps:**
+1. Log in to the app.
+2. Navigate to the task creation screen.
+3. Enter task details and save.
+**Expected Result:** New task is created and listed.
+
+### 5. Edit Task
+**Objective:** Verify that a user can edit an existing task.
+**Steps:**
+1. Log in to the app.
+2. Navigate to the task list.
+3. Select a task and edit details.
+4. Save changes.
+**Expected Result:** Task details are updated.
+
+### 6. Delete Task
+**Objective:** Ensure a user can delete a task.
+**Steps:**
+1. Log in to the app.
+2. Navigate to the task list.
+3. Select a task and delete it.
+**Expected Result:** Task is removed from the list.
+
+## Reminders
+
+### 7. Set Reminder
+**Objective:** Verify that a user can set a reminder for a task.
+**Steps:**
+1. Log in to the app.
+2. Create or edit a task.
+3. Set a reminder time.
+4. Save the task.
+**Expected Result:** Reminder is set for the task.
+
+### 8. Edit Reminder
+**Objective:** Verify that a user can edit a reminder time.
+**Steps:**
+1. Log in to the app.
+2. Navigate to the task list.
+3. Select a task with a reminder and edit the time.
+4. Save changes.
+**Expected Result:** Reminder time is updated.
+
+### 9. Delete Reminder
+**Objective:** Ensure a user can delete a reminder.
+**Steps:**
+1. Log in to the app.
+2. Navigate to the task list.
+3. Select a task with a reminder and delete it.
+**Expected Result:** Reminder is removed.
+
+## Filters and Sorting
+
+### 10. Apply Filter
+**Objective:** Verify that a user can apply filters to the task list.
+**Steps:**
+1. Log in to the app.
+2. Navigate to the task list.
+3. Apply a filter (e.g., Important, All).
+**Expected Result:** Task list is filtered accordingly.
+
+### 11. Clear Filter
+**Objective:** Ensure a user can clear applied filters.
+**Steps:**
+1. Log in to the app.
+2. Apply a filter.
+3. Clear the filter.
+**Expected Result:** Task list shows all tasks.
+
+### 12. Sort Tasks
+**Objective:** Verify that a user can sort tasks.
+**Steps:**
+1. Log in to the app.
+2. Navigate to the task list.
+3. Apply sorting (e.g., by date, priority).
+**Expected Result:** Tasks are sorted accordingly.
+
+## Offline Functionality
+
+### 13. Create Task Offline
+**Objective:** Verify task creation while offline.
+**Steps:**
+1. Go offline.
+2. Create a new task.
+**Expected Result:** Task is saved locally and synced when online.
+
+### 14. Edit Task Offline
+**Objective:** Verify task editing while offline.
+**Steps:**
+1. Go offline.
+2. Edit an existing task.
+**Expected Result:** Changes are saved locally and synced when online.
+
+### 15. Delete Task Offline
+**Objective:** Ensure task deletion while offline.
+**Steps:**
+1. Go offline.
+2. Delete a task.
+**Expected Result:** Task is removed locally and synced when online.
+
+## Notifications
+
+### 16. Reminder Notification
+**Objective:** Verify that reminder notifications work.
+**Steps:**
+1. Set a reminder.
+2. Wait for the reminder time.
+**Expected Result:** Notification is received at the reminder time.
+
+### 17. Task Due Notification
+**Objective:** Verify task due notifications.
+**Steps:**
+1. Set a task due date.
+2. Wait for the due date.
+**Expected Result:** Notification is received when the task is due.
+
+## User Interface
+
+### 18. UI Responsiveness
+**Objective:** Ensure the app UI is responsive.
+**Steps:**
+1. Use the app on various devices.
+**Expected Result:** UI adjusts and functions properly on all devices.
+
+### 19. Dark Mode Support
+**Objective:** Verify dark mode support.
+**Steps:**
+1. Enable dark mode on the device.
+2. Open the app.
+**Expected Result:** App UI switches to dark mode.
+
+## Performance
+
+### 20. App Launch Time
+**Objective:** Measure app launch time.
+**Steps:**
+1. Open the app.
+**Expected Result:** App launches within acceptable time.
+
+### 21. Task List Load Time
+**Objective:** Measure task list load time.
+**Steps:**
+1. Navigate to the task list.
+**Expected Result:** Task list loads quickly.
+
+### 22. Reminder Notification Delay
+**Objective:** Measure delay in reminder notifications.
+**Steps:**
+1. Set a reminder.
+2. Note the time the notification is received.
+**Expected Result:** Notification is received promptly.
+
+## Security
+
+### 23. Password Encryption
+**Objective:** Verify that passwords are encrypted.
+**Steps:**
+1. Sign up with a new account.
+2. Check the database.
+**Expected Result:** Password is stored in encrypted form.
+
+## Error Handling
+
+### 24. Network Error Handling
+**Objective:** Ensure the app handles network errors gracefully.
+**Steps:**
+1. Disconnect from the network.
+2. Perform various tasks.
+**Expected Result:** Appropriate error messages are displayed.
+
+## Integration
+
+### 25. Calendar Integration
+**Objective:** Verify integration with calendar apps.
+**Steps:**
+1. Set a task reminder.
+2. Check the calendar app.
+**Expected Result:** Reminder appears in the calendar.
+
+## Usability
+
+### 26. Ease of Navigation
+**Objective:** Verify ease of navigation within the app.
+**Steps:**
+1. Navigate through various screens.
+**Expected Result:** Navigation is intuitive.
+
+### 27. Help and Support Access
+**Objective:** Ensure easy access to help and support.
+**Steps:**
+1. Open the help section.
+**Expected Result:** Help and support information is easily accessible.
+
+## Sync
+
+### 28. Data Sync
+**Objective:** Ensure data sync across devices.
+**Steps:**
+1. Use the app on one device.
+2. Check data on another device.
+**Expected Result:** Data is synced across devices.
+
+## Localization
+
+### 29. Language Support
+**Objective:** Verify multi-language support.
+**Steps:**
+1. Change the app language.
+**Expected Result:** App content is displayed in the selected language.
+
+### 30. Date and Time Format
+**Objective:** Ensure correct date and time format for different regions.
+**Steps:**
+1. Change the device region settings.
+2. Check the app.
+**Expected Result:** Date and time formats match the region settings.
+
+## Updates
+
+### 31. App Update Notification
+**Objective:** Verify that users are notified of app updates.
+**Steps:**
+1. Release a new app update.
+2. Open the app.
+**Expected Result:** User receives update notification.
+
+### 32. Update Installation
+**Objective:** Ensure smooth installation of app updates.
+**Steps:**
+1. Install an update.
+**Expected Result:** App updates without issues.
+
+
+### Test Case Prioritization
+
+1. **Login Functionality** - High
+2. **Logout Functionality** - High
+3. **Sign Up Functionality** - High
+4. **Create New Task** - High
+5. **Edit Task** - Medium
+6. **Delete Task** - Medium
+7. **Set Reminder** - High
+8. **Edit Reminder** - Low
+9. **Delete Reminder** - Low
+10. **Apply Filter** - Medium
+11. **Clear Filter** - Low
+12. **Sort Tasks** - Medium
+13. **Create Task Offline** - Low
+14. **Edit Task Offline** - Low
+15. **Delete Task Offline** - Low
+16. **Reminder Notification** - High
+17. **Task Due Notification** - Low
+18. **UI Responsiveness** - Medium
+19. **Dark Mode Support** - Medium
+20. **App Launch Time** - Medium
+21. **Task List Load Time** - Medium
+22. **Reminder Notification Delay** - Medium
+23. **Password Encryption** - Medium
+24. **Network Error Handling** - Medium
+25. **Calendar Integration** - Medium
+26. **Ease of Navigation** - Low
+27. **Help and Support Access** - Low
+28. **Data Sync** - Low
+29. **Language Support** - Low
+30. **Date and Time Format** - Low
+31. **App Update Notification** - Low
+32. **Update Installation** - Low
