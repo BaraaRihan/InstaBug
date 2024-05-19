@@ -26,7 +26,7 @@
    - **Scenario**: Verify the user can add a new task.
    - **Details**: 
      - Open the app.
-     - Log in if necessary.
+     - Log in.
      - Tap the "Add Task" button.
      - Enter task details.
      - Save the task.
@@ -36,7 +36,7 @@
    - **Scenario**: Verify the user can edit an existing task.
    - **Details**: 
      - Open the app.
-     - Log in if necessary.
+     - Log in.
      - Select an existing task.
      - Tap the "Edit" button.
      - Modify task details.
@@ -47,7 +47,7 @@
    - **Scenario**: Verify the user can delete a task.
    - **Details**: 
      - Open the app.
-     - Log in if necessary.
+     - Log in
      - Select an existing task.
      - Tap the "Delete" button.
      - Confirm deletion.
@@ -57,7 +57,7 @@
    - **Scenario**: Verify the user receives a reminder notification for a task.
    - **Details**: 
      - Open the app.
-     - Log in if necessary.
+     - Log in.
      - Add a task with a reminder.
      - Wait for the reminder time.
      - Confirm a notification is received.
@@ -103,7 +103,7 @@
     - **Scenario**: Verify the user can log out successfully.
     - **Details**:
       - Open the app.
-      - Log in if necessary.
+      - Log in.
       - Navigate to the settings page.
       - Tap the "Logout" button.
       - Confirm the user is redirected to the login screen.
@@ -112,7 +112,7 @@
     - **Scenario**: Verify the user can update profile information.
     - **Details**:
       - Open the app.
-      - Log in if necessary.
+      - Log in.
       - Navigate to the profile page.
       - Update profile information.
       - Save changes.
@@ -123,7 +123,7 @@
     - **Scenario**: Verify the user can reorder tasks.
     - **Details**:
       - Open the app.
-      - Log in if necessary.
+      - Log in.
       - Reorder tasks by dragging and dropping.
       - Confirm the task order is updated.
 
@@ -131,7 +131,7 @@
     - **Scenario**: Verify the user can mark a task as completed.
     - **Details**:
       - Open the app.
-      - Log in if necessary.
+      - Log in.
       - Select a task.
       - Mark the task as completed.
       - Confirm the task appears in the completed tasks list.
@@ -140,7 +140,7 @@
     - **Scenario**: Verify the user can mark a completed task as uncompleted.
     - **Details**:
       - Open the app.
-      - Log in if necessary.
+      - Log in.
       - Select a completed task.
       - Mark the task as uncompleted.
       - Confirm the task appears in the active tasks list.
@@ -149,7 +149,7 @@
     - **Scenario**: Verify the user can view task details.
     - **Details**:
       - Open the app.
-      - Log in if necessary.
+      - Log in.
       - Select a task.
       - Confirm the task details are displayed.
 
@@ -157,11 +157,22 @@
     - **Scenario**: Verify the user can add notes to a task.
     - **Details**:
       - Open the app.
-      - Log in if necessary.
+      - Log in.
       - Select a task.
       - Add a note to the task.
       - Save the note.
       - Confirm the note is added to the task.
+
+18. **Account Deletion**
+    - **Scenario**: Verify the user can delete their account.
+    - **Details**:
+      - Open the app.
+      - Log in.
+      - Navigate to the account settings.
+      - Delete the account.
+      - Confirm the account is deleted.
+
+
 
 
 ### Test Case Prioritization
@@ -183,3 +194,4 @@
 15. Uncomplete Task - High
 16. Task Details - High
 17. Task Notes - Medium
+18. Account Deletion
