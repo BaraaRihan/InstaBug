@@ -105,3 +105,33 @@ When creating a task with a reminder time, the next task automatically inherits 
 - **Network:** 4G / Wi-Fi
 
 **Attachment:** [bug2.mp4](https://baraarihan.atlassian.net/rest/api/3/attachment/content/10001)
+
+---
+
+## Filter Task Button provides No Data
+**Issue Key:** U1-10 
+**Issue ID:** 10046  
+**Type:** Bug  
+**Status:** To Do  
+**Priority:** Medium  
+**Reporter:** Baraa Rihan  
+**Created:** 15/May/24 11:54 AM  
+**Updated:** 16/May/24 2:04 PM  
+**Description:**  
+When applying the a filter to the tasks in the ToDo mobile app, the filter button doesn't shows any data.
+
+*Steps to Reproduce:*
+1. Open the ToDo mobile app.
+2. Navigate to My Day Page.
+3. Click the button with three dots on the top right.
+4. Select filter
+5. Observe that the filter Doesn't shows any data to filter by.
+
+*Environment:*
+- **Model:** iPhone 8 Plus
+- **OS:** iOS 15.0.2
+- **Network:** 4G / Wi-Fi
+
+**Attachment:** [bug9.mp4](https://baraarihan.atlassian.net/rest/api/3/attachment/content/10003)
+
+---
