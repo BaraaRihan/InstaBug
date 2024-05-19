@@ -1,0 +1,107 @@
+# Bug Reports
+
+## Failure to Save Activity When Offline
+**Issue Key:** U1-8  
+**Issue ID:** 10044  
+**Type:** Bug  
+**Status:** To Do  
+**Priority:** High  
+**Reporter:** Baraa Rihan  
+**Created:** 16/May/24 2:02 PM  
+**Updated:** 16/May/24 2:04 PM  
+**Description:**  
+When attempting to complete a task while offline in the ToDo mobile app, the app fails to save the activity. The expected behavior is that the app should save the work locally and sync it once connectivity is restored. Instead, the app does not retain the activity at all, leading to data loss and user frustration.
+
+*Steps to Reproduce:*
+1. Open the ToDo mobile app.
+2. Go offline (disable Wi-Fi or mobile data).
+3. Complete a task.
+4. Observe that the task is not saved or retained by the app.
+
+*Environment:*
+- **Model:** iPhone 8 Plus
+- **OS:** iOS 15.0.2
+- **Network:** 4G / Wi-Fi
+
+**Attachment:** [bug5.mp4](https://baraarihan.atlassian.net/rest/api/3/attachment/content/10004)
+
+---
+
+## Disappearance of Filter Button
+**Issue Key:** U1-7  
+**Issue ID:** 10043  
+**Type:** Bug  
+**Status:** To Do  
+**Priority:** Medium  
+**Reporter:** Baraa Rihan  
+**Created:** 15/May/24 11:54 AM  
+**Updated:** 16/May/24 2:04 PM  
+**Description:**  
+When applying the "Important" or "All" filters in the ToDo mobile app, the filter button disappears from the interface. This forces users to return to the home page to reapply the filter, instead of toggling it directly from the task list view.
+
+*Steps to Reproduce:*
+1. Open the ToDo mobile app.
+2. Navigate to My Day Page.
+3. Click the box in the top left.
+4. Click the button with three dots on the top right.
+5. Apply the "Important" or "All" filter.
+6. Observe that the filter button disappears.
+
+*Environment:*
+- **Model:** iPhone 8 Plus
+- **OS:** iOS 15.0.2
+- **Network:** 4G / Wi-Fi
+
+**Attachment:** [bug4.mp4](https://baraarihan.atlassian.net/rest/api/3/attachment/content/10003)
+
+---
+
+## Lack of Flexibility in Setting Reminder Times
+**Issue Key:** U1-6  
+**Issue ID:** 10042  
+**Type:** Bug  
+**Status:** To Do  
+**Priority:** Medium  
+**Reporter:** Baraa Rihan  
+**Created:** 15/May/24 11:45 AM  
+**Updated:** 16/May/24 2:03 PM  
+**Description:**  
+The clock selector in the ToDo mobile app only allows setting reminders at predefined intervals (e.g., 10:05, 10:10, 10:15). Users cannot select specific times like 10:02, limiting flexibility.
+
+*Steps to Reproduce:*
+1. Open the ToDo mobile app.
+2. Create a task.
+3. Try to set a reminder for a specific time.
+
+*Environment:*
+- **Model:** iPhone 8 Plus
+- **OS:** iOS 15.0.2
+- **Network:** 4G / Wi-Fi
+
+**Attachment:** [bug3.mp4](https://baraarihan.atlassian.net/rest/api/3/attachment/content/10002)
+
+---
+
+## Next Task Automatically Takes Previous Task's Reminder Time
+**Issue Key:** U1-5  
+**Issue ID:** 10041  
+**Type:** Bug  
+**Status:** To Do  
+**Priority:** Medium  
+**Reporter:** Baraa Rihan  
+**Created:** 15/May/24 11:37 AM  
+**Updated:** 16/May/24 2:04 PM  
+**Description:**  
+When creating a task with a reminder time, the next task automatically inherits the same reminder time. This occurs without user input, causing potential confusion and missed reminders.
+
+*Steps to Reproduce:*
+1. Open the ToDo mobile app.
+2. Create a task with a reminder time in My Day.
+3. Create another task without setting a reminder time.
+
+*Environment:*
+- **Model:** iPhone 8 Plus
+- **OS:** iOS 15.0.2
+- **Network:** 4G / Wi-Fi
+
+**Attachment:** [bug2.mp4](https://baraarihan.atlassian.net/rest/api/3/attachment/content/10001)
