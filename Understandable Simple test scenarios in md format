@@ -99,6 +99,71 @@
       - Submit the form.
       - Confirm validation messages are displayed for incorrect fields.
 
+11. **User Logout**
+    - **Scenario**: Verify the user can log out successfully.
+    - **Details**:
+      - Open the app.
+      - Log in if necessary.
+      - Navigate to the settings page.
+      - Tap the "Logout" button.
+      - Confirm the user is redirected to the login screen.
+
+12. **Profile Update**
+    - **Scenario**: Verify the user can update profile information.
+    - **Details**:
+      - Open the app.
+      - Log in if necessary.
+      - Navigate to the profile page.
+      - Update profile information.
+      - Save changes.
+      - Confirm the profile information is updated.
+
+
+13. **Reorder Tasks**
+    - **Scenario**: Verify the user can reorder tasks.
+    - **Details**:
+      - Open the app.
+      - Log in if necessary.
+      - Reorder tasks by dragging and dropping.
+      - Confirm the task order is updated.
+
+14. **Complete Task**
+    - **Scenario**: Verify the user can mark a task as completed.
+    - **Details**:
+      - Open the app.
+      - Log in if necessary.
+      - Select a task.
+      - Mark the task as completed.
+      - Confirm the task appears in the completed tasks list.
+
+15. **Uncomplete Task**
+    - **Scenario**: Verify the user can mark a completed task as uncompleted.
+    - **Details**:
+      - Open the app.
+      - Log in if necessary.
+      - Select a completed task.
+      - Mark the task as uncompleted.
+      - Confirm the task appears in the active tasks list.
+
+16. **Task Details**
+    - **Scenario**: Verify the user can view task details.
+    - **Details**:
+      - Open the app.
+      - Log in if necessary.
+      - Select a task.
+      - Confirm the task details are displayed.
+
+17. **Task Notes**
+    - **Scenario**: Verify the user can add notes to a task.
+    - **Details**:
+      - Open the app.
+      - Log in if necessary.
+      - Select a task.
+      - Add a note to the task.
+      - Save the note.
+      - Confirm the note is added to the task.
+
+
 ### Test Case Prioritization
 
 1. User Registration - High
@@ -111,3 +176,10 @@
 8. Offline Mode - Medium
 9. Negative Scenario: Invalid Login - High
 10. Negative Scenario: Field Validation - Medium
+11. User Logout - High
+12. Profile Update - High
+13. Reorder Tasks - Medium
+14. Complete Task - High
+15. Uncomplete Task - High
+16. Task Details - High
+17. Task Notes - Medium
