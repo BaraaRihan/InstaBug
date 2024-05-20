@@ -58,7 +58,7 @@ When applying the "Important" or "All" filters in the ToDo mobile app, the filte
 
 ---
 
-## Lack of Flexibility in Setting Reminder Times
+## Lack of Flexibility in Setting Reminder Times while creating a task
 **Issue Key:** U1-6  
 **Issue ID:** 10042  
 **Type:** Bug  
@@ -112,7 +112,7 @@ When creating a task with a reminder time, the next task automatically inherits 
 
 ---
 
-## Filter Task Button provides No Data
+## While filtering taskis the Filter Task Button provides No Data 
 **Issue Key:** U1-10 
 **Issue ID:** 10046  
 **Type:** Bug  
