@@ -4,7 +4,7 @@
 **Issue Key:** U1-8  
 **Issue ID:** 10044  
 **Type:** Bug  
-**Status:** To Do  
+**Status:** New  
 **Priority:** High  
 **Sevirty:** High
 **Reporter:** Baraa Rihan  
@@ -32,7 +32,7 @@ When attempting to complete a task while offline in the ToDo mobile app, the app
 **Issue Key:** U1-7  
 **Issue ID:** 10043  
 **Type:** Bug  
-**Status:** To Do  
+**Status:** New   
 **Priority:** Medium  
 **Sevirty:** low
 **Reporter:** Baraa Rihan  
@@ -62,7 +62,7 @@ When applying the "Important" or "All" filters in the ToDo mobile app, the filte
 **Issue Key:** U1-6  
 **Issue ID:** 10042  
 **Type:** Bug  
-**Status:** To Do  
+**Status:** New  
 **Priority:** Medium 
 **Sevirty:** Medium
 **Reporter:** Baraa Rihan  
@@ -89,7 +89,7 @@ The clock selector in the ToDo mobile app only allows setting reminders at prede
 **Issue Key:** U1-5  
 **Issue ID:** 10041  
 **Type:** Bug  
-**Status:** To Do  
+**Status:** New  
 **Priority:** Medium  
 **Sevirty:** Medium
 **Reporter:** Baraa Rihan  
@@ -116,7 +116,7 @@ When creating a task with a reminder time, the next task automatically inherits 
 **Issue Key:** U1-10 
 **Issue ID:** 10046  
 **Type:** Bug  
-**Status:** To Do  
+**Status:** New   
 **Priority:** Medium 
 **Sevirty:** low
 **Reporter:** Baraa Rihan  
